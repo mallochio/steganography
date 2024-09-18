@@ -147,3 +147,4 @@ def dct_decode(stego_image, cover_image, scale_factor=0.1, block_size=8, secret_
     decoded_secret = np.clip(decoded_secret * 255, 0, 255).astype(np.uint8)
     
     return decoded_secret
+# Added additional comments for clarity
