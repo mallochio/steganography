@@ -53,3 +53,7 @@ cv2.imwrite('decoded_secret.png', decoded_img)
 ## License
 
 MIT
+## Future Work
+
+- Implement wavelet-based steganography
+- Add encryption support
